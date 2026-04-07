@@ -1,0 +1,43 @@
+# Dependencias
+node_modules/
+
+# Archivos de entorno (MUY IMPORTANTE)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de build
+dist/
+build/
+
+# Archivos temporales
+.tmp/
+.temp/
+
+# Configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de certificados (como los de Mongo TLS que usabas)
+*.pem
+*.key
+*.crt
+
+# Coverage (tests)
+coverage/
+
+# Docker
+docker-compose.override.yml
